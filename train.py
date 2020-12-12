@@ -33,9 +33,9 @@ def main():
 
     config.initialize(args)
     
-    train_loader = get_dataloader('train', config, config.batch_size, config.num_workers)
+    train_loader = get_dataloader('Train', config, config.batch_size, config.num_workers)
     mean_pose, std_pose = train_loader.dataset.mean_pose, train_loader.dataset.std_pose
-    val_loader = get_dataloader('test', config, config.batch_size, config.num_workers)
+    val_loader = get_dataloader('Test', config, config.batch_size, config.num_workers)
     val_loader = cycle(val_loader)
     
     return train_loader,val_loader
