@@ -15,7 +15,7 @@ class Config:
     device = None
 
     # data paths
-    data_dir = './dataset/PACO'
+    data_dir = 'C:\\Users\\dubs\\Desktop\\MotionRetargeting2D\\Data\\PACO'
     meanpose_path = None
     stdpose_path = None
 
@@ -80,15 +80,15 @@ class Config:
         #    self.de_channels = [self.mot_en_channels[-1] + self.body_en_channels[-1], 128, 64, self.len_joints + 2]
         #    self.view_angles = None
 
-            self.meanpose_path = './dataset/PACO/meanpose.npy'
-            self.stdpose_path = './dataset/PACO/stdpose.npy'
+            self.meanpose_path = 'C:\\Users\\dubs\\Desktop\\MotionRetargeting2D\\Data\\PACO\\meanpose.npy'
+            self.stdpose_path = 'C:\\Users\\dubs\\Desktop\\MotionRetargeting2D\\Data\\PACO\\stdpose.npy'
         elif self.name == 'view':
          #   self.mot_en_channels = [self.len_joints + 2, 64, 96, 128]
          #   self.view_en_channels = [self.len_joints, 64, 96, 128, 32]
          #   self.de_channels = [self.mot_en_channels[-1] + self.view_en_channels[-1], 128, 64, self.len_joints + 2]
 
-            self.meanpose_path = './dataset/PACO/meanpose_with_view.npy'
-            self.stdpose_path = './dataset/PACO/stdpose_with_view.npy'
+            self.meanpose_path = 'C:\\Users\\dubs\\Desktop\\MotionRetargeting2D\\Data\\PACO\\meanpose_with_view.npy'
+            self.stdpose_path = 'C:\\Users\\dubs\\Desktop\\MotionRetargeting2D\\Data\\PACO\\stdpose_with_view.npy'
         else:
         #    self.mot_en_channels = [self.len_joints + 2, 64, 96, 128]
         #    self.body_en_channels = [self.len_joints, 32, 48, 64, 16]
@@ -96,8 +96,8 @@ class Config:
         #    self.de_channels = [self.mot_en_channels[-1] + self.body_en_channels[-1] + self.view_en_channels[-1],
         #                        128, 64, self.len_joints + 2]
 
-            self.meanpose_path = './dataset/PACO/meanpose_with_view.npy'
-            self.stdpose_path = './dataset/PACO/stdpose_with_view.npy'
+            self.meanpose_path = 'C:\\Users\\dubs\\Desktop\\MotionRetargeting2D\\Data\\PACO\\meanpose_with_view.npy'
+            self.stdpose_path = 'C:\\Users\\dubs\\Desktop\\MotionRetargeting2D\\Data\\PACO\\stdpose_with_view.npy'
 
 
 config = Config()
