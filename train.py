@@ -14,7 +14,7 @@ import torch
 import os
 from collections import OrderedDict
 from tqdm import tqdm
-from tensorboardX import SummaryWriter
+#from tensorboardX import SummaryWriter
 import argparse
 
 torch.backends.cudnn.benchmark = True
