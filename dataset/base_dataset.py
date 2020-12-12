@@ -4,7 +4,7 @@ Created on Thu Dec 10 12:11:07 2020
 
 @author: dubs
 """
-from motion import trans_motion3d, normalize_motion, get_local3d
+from functional.motion import trans_motion3d, normalize_motion, get_local3d
 import os
 from torch.utils.data import Dataset
 import torch
