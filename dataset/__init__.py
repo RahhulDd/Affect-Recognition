@@ -4,9 +4,9 @@ Created on Fri Dec 11 10:48:57 2020
 
 @author: dubs
 """
-from datasets import _DatasetForSkeleton, _DatasetForView, _DatasetForFull
+from dataset.datasets import _DatasetForSkeleton, _DatasetForView, _DatasetForFull
 from torch.utils.data import DataLoader
-from base_dataset import get_meanpose
+from dataset.base_dataset import get_meanpose
 import numpy as np
 
 
