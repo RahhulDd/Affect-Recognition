@@ -4,7 +4,7 @@ Created on Fri Dec 11 10:52:50 2020
 
 @author: dubs
 """
-from dataset import get_dataloader
+from datasets import get_dataloader
 from common import config
 #from model import get_autoencoder
 from functional.utils import cycle
